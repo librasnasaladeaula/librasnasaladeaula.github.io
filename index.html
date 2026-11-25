@@ -41,6 +41,7 @@ section{padding:56px 0}
 .r-1-1{aspect-ratio:1/1}
 .r-4-3{aspect-ratio:4/3}
 .r-3-4{aspect-ratio:3/4}
+.r-2-3{aspect-ratio:2/3}
 
 /* Botões */
 .btn{display:inline-block;background:var(--laranja);color:#fff;font-weight:800;font-size:1rem;text-decoration:none;padding:18px 26px;border-radius:999px;box-shadow:0 6px 18px rgba(242,140,40,.35);transition:transform .15s,box-shadow .15s;max-width:100%;letter-spacing:.02em}
@@ -521,7 +522,7 @@ fbq('track','PageView');
     c.exemplos.forEach(function(m){
       n++;
       var file='img/mapas/mapa-'+String(n).padStart(2,'0')+'.webp';
-      html+='<div class="slide"><div class="ph r-3-4">'+file+'<img src="'+file+'" alt="'+esc(m)+'" loading="lazy" decoding="async" onerror="this.remove()"></div><p>'+esc(m)+'</p></div>';
+      html+='<div class="slide"><div class="ph r-2-3">'+file+'<img src="'+file+'" alt="'+esc(m)+'" loading="lazy" decoding="async" onerror="this.remove()"></div><p>'+esc(m)+'</p></div>';
     });
     html+='</div></div>';
   });
